@@ -2,7 +2,6 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import altair as alt
-import plost
 
 #Page title
 st.set_page_config(page_title='Interactive Gym Data Explorer', page_icon='📊')
