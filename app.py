@@ -89,5 +89,6 @@ bar_chart = alt.Chart(df_chart_water).mark_bar().encode(
 st.altair_chart(bar_chart, use_container_width=True)
 
 
-
+left, middle, right = st.columns(3)
+right.link_button("Go back to portfolio", "https://ainurafifah00.github.io/", type='primary')
 
