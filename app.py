@@ -83,7 +83,7 @@ for image, description in features.items():
     image = Image.open(ASSETS_DIR / image)
     st.write("")
     left_col, right_col = st.columns(2)
-    left_col.image(image, use_column_width=True)
+    left_col.image(image, use_container_width=True)
     right_col.write(f"**{description[0]}**")
     right_col.write(description[1])
 
