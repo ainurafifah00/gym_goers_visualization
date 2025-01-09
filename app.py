@@ -3,6 +3,20 @@ import numpy as np
 import pandas as pd
 import altair as alt
 
+
+'''
+LINKS TO REFER FOR WEBSITE DESIGN
+
+https://themes.muffingroup.com/be/gym3/
+https://themes.muffingroup.com/be/gym2/contact/
+https://www.fhittingroom.com/at-home/
+
+https://muffingroup.com/blog/gym-websites/
+
+'''
+
+
+
 #Page title
 st.set_page_config(page_title='Interactive Gym Data Explorer', page_icon='📊')
 st.title('Gym Goers Dashboard')
