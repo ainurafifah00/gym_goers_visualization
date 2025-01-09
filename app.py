@@ -204,9 +204,11 @@ contact_form = f"""
 """
 st.markdown(contact_form, unsafe_allow_html=True)
 
-
-
-
+# -- link back to portfolio --
+st.write("")
+st.write("----")
+left, middle, right = st.columns(3)
+right.link_button("Go back to portfolio", "https://ainurafifah00.github.io/", type='primary')
 
 
 
